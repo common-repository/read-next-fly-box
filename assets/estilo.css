@@ -1,0 +1,74 @@
+#flybox-wrapper{
+    right: -5px;
+    -webkit-transition: right 200ms ease-in 50ms;
+    -moz-transition: right 200ms ease-in 50ms;
+    transition: right 200ms ease-in 50ms;
+    display: none;
+    background-color: white;
+    position: fixed;
+    bottom: -2px;
+    z-index: 999;
+    -moz-box-shadow: 0 4px 10px #555;
+    -webkit-box-shadow: 0 4px 10px #555;
+    box-shadow: 0 4px 10px #555;
+    height: 250px;
+    /*hasLayout: -1;*/
+}
+
+#flybox-container{
+    padding: 10px;
+    float: left;
+}
+
+.flybox-item{
+    padding: 10px 0;
+    float: left;
+    text-align: left;
+    margin: 0;
+    overflow: hidden;
+    height: 80px;
+}
+
+    .flybox-title{
+        margin: 5px 0;
+        font-size: 12px;
+        line-height: 14px;
+        padding: 0;
+    }
+
+    .flybox-item a.flybox-img{
+        display: block;
+        width: 125px;
+        height: 80px;
+        float: left;
+        text-decoration: none !important;
+    }
+
+    .flybox-item a.flybox-img img{
+        border: none;
+        margin: 0;
+        padding: 0;
+        width: 125px !important;
+        height: 80px !important;
+    }
+
+        .flybox-item a.img:hover img{
+            text-decoration: none !important;
+        }
+
+    .flybox-item p{
+        float: left;
+        margin: 0;
+        padding: 0 0 0 15px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+        .flybox-item p a{
+            text-decoration: none !important;
+        }
+
+        .flybox-item p a:hover{
+            text-decoration: underline !important;
+        }
+
+

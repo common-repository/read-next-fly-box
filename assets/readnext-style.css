@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+div#fbSEOComments{
+	margin:0 auto;
+    position:relative;
+}
+
+div#readnextflybox{
+	width:425px;
+	margin:0 auto;
+	font-size:11px
+}
+	div#readnextflybox a{
+		font-size:11px
+	}
